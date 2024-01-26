@@ -1,0 +1,139 @@
+header {
+    background-color: #46336D;
+    color: #fff;
+}
+
+header .nav a, header .nav a:hover {
+    color: #fff;
+}
+
+.nav-pills .nav-link.active {
+    background-color: #F1E6F4;
+    color: #46336D;
+}
+
+header button {
+    background-color: #F1E6F4;
+    border: none;
+    border-radius: 5px;
+    color: #F1E6F4;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.title-brand {
+    font-family: "Lobster", sans-serif;
+    font-size: 70px;
+}
+
+.txt-color {
+    font-size: 40px;
+    color: #46336D;
+    font-family: "Lobster", sans-serif;
+}
+
+.txt-color2 {
+    font-size: 22px;
+    color: #46336D;
+    font-family: "Lobster", sans-serif;
+}
+
+.texto {
+    font-size: 25px;
+}
+
+#sobre .container {
+    margin-top: 50px;
+}
+
+#sobre {
+    background-color:#F1E6F4;
+    padding: 50px;
+}
+
+#frase h3 {
+    background-color: #F1E6F4;
+}
+
+.duvidas img {
+    display: flex;
+    text-align: center;
+}
+
+#formulario input {
+    max-width: 500px;
+}
+
+#rodapé {
+    background-color: #46336D;
+    color: #F1E6F4;
+    font-weight: bold;
+}
+
+.btn.active {
+    background-color: #F1E6F4;
+    border: none;
+    color: #46336D;
+}
+
+#formulario h2, label, input {
+    color: #fff;
+}
+
+#formulario {
+    background-color: #46336D;
+}
+
+@media (max-width: 640px) {
+    .nav {
+        display: block;
+        text-align: center;
+    }
+
+    #sobre img {
+        margin: 0;
+        max-width: 250px;
+    }
+
+    #sobre .container {
+        margin-top: 5px;
+    }
+
+    #sobre {
+        padding: 30px;
+    }
+
+    #sobre h2 {
+        font-size: 30px;
+    }
+
+    #sobre p {
+        font-size: 15px;
+    }
+
+    #frase h3 {
+        font-size: 20px;
+    }
+
+    #formulario h2 {
+        font-size: 24px;
+        text-align: center;
+        padding-bottom: 15px;
+    }
+
+}
+
+@media screen and (min-width: 641px) and (max-width: 1023px) {
+
+    .nav {
+        display: block;
+        text-align: center;
+    }
+
+    #sobre img {
+        margin: 0;
+        max-width: 600px;
+    }
+}
